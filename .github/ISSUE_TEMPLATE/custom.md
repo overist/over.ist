@@ -1,6 +1,6 @@
 ---
 name: Custom issue template
-about: Custom issue template
+about: Title
 title: ''
 labels: ''
 assignees: overist

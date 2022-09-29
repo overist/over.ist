@@ -1,0 +1,33 @@
+
+###################
+#### 커밋 작성 전략 ####
+# <타입> : <제목> 의 형식으로 맨 윗줄에 제목을 작성
+# 본문을 제목 아랫줄부터 변경사항이 무엇인지 명확히 작성, "-"로 구분, 한 줄은 72자 이내, 마침표 사용 금지
+# 모든 커밋 내용은 사전에 이슈를 발행, 해당 이슈의 해결 목표를 참고하여 작성하고 Pull Requests로 병합
+# PR 병합시 꼬릿말(footer)을 맨 아랫줄에 작성 (주의: 반드시 PR 병합 커밋에만 꼬릿말 작성)
+
+#### 커밋 작성 예시 ####
+# 제목) feat : 로그인 기능 추가 [#1]
+# 내용) - view/login.js, 로그인 뷰 생성
+# 내용) - pages/login.js, 로그인 처리 로직 생성
+
+#### 제목 타입 키워드 정의 ####
+# feat : 새로운 기능 추가
+# fix : 버그 수정
+# docs : 문서 수정
+# test : 테스트 코드 추가
+# refact : 코드 리팩토링
+# style : 코드 의미에 영향을 주지 않는 변경사항
+# chore : 빌드 부분 혹은 패키지 매니저 수정사항
+
+#### 이슈 링킹 및 종료 키워드 ####
+# 주의) 반드시 PR 병합 커밋에서만 작성
+# close / closes / closed : 일반 개발 이슈, 이슈 종료
+# fix / fixes / fixed : 버그 픽스나 핫 픽스 이슈, 이슈 종료
+# resolve / resolves / resolved : 문의나 요청사항에 대한 이슈, 이슈 종료
+# 예시) resolves #1, resolves #2, resolves #3
+
+##### comment #####
+# this file is commit convention for https://github.com/overist/over.ist/tree/overist
+# author : overist
+###################

@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'overist',
 
   // open graph metadata (optional)
-  description: 'personal blog for tech and insight',
+  description: 'Tech and Insight',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -56,9 +56,13 @@ export default siteConfig({
       title: 'About',
       pageId: '6928f842cce4404bb3572cc19de2b1f1'
     },
+    {
+      title: 'Posts',
+      pageId: '5a186d4dc3d3497ebe6155b804bc6606'
+    },
     // {
     //   title: 'Contact',
-    //   pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+    //   pageId: 'e0fe6a5fbaed4d039cfe68bf59b55069'
     // }
   ]
 })

@@ -35,7 +35,15 @@
 
 /* ToC white-space get newline */
 aside.notion-aside{
-  padding-right:20px;
+  padding-left: 5px;
+  padding-right: 20px;
+  max-width: 360px;
+  margin: 0 auto 0 3rem;
+  border-left: 3px solid #F1F3F5;
+}
+.notion-aside-table-of-contents-header{
+  align-self: flex-start;
+  padding-left: 5px;
 }
 
 a.notion-table-of-contents-item {

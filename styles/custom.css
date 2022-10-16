@@ -4,15 +4,14 @@
 
 
 /* hide about block */
-.notion-block-6928f842cce4404bb3572cc19de2b1f1 {
+a.notion-block-6928f842cce4404bb3572cc19de2b1f1 {
   display: none;
 }
 
 /* hide posts block */
-.notion-block-5a186d4dc3d3497ebe6155b804bc6606 {
+a.notion-block-fe7052915f0548809117516ff4a643a6 {
   display: none;
 }
-
 /* Pretty Scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
@@ -33,7 +32,7 @@
   background-color: #a8bbbf;
 }
 
-/* ToC white-space get newline */
+/* ToC Layout, white-spacing */
 aside.notion-aside{
   padding-left: 5px;
   padding-right: 20px;

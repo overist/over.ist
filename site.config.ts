@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'a2906a133d9d482bb6214766064ae60d',
+  rootNotionPageId: '198c57c43eef80989482f5d8dc1da423',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'overist',
-  domain: 'over.ist',
+  domain: 'https://career.over.ist/',
   author: 'overist',
 
   // open graph metadata (optional)
-  description: 'Tech and Insight',
+  description: 'Resume, portfolio',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -54,15 +54,15 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '6928f842cce4404bb3572cc19de2b1f1'
+      pageId: '1a0c57c43eef8035a901e5f588b8aedf'
     },
     {
-      title: 'Posts',
-      pageId: 'fe7052915f0548809117516ff4a643a6'
+      title: 'Resume',
+      url: 'https://resume.over.ist/'
     },
-    // {
-    //   title: 'Contact',
-    //   pageId: 'e0fe6a5fbaed4d039cfe68bf59b55069'
-    // }
+    {
+      title: 'Contact',
+      pageId: '1a0c57c43eef8095aa8ed263464a78ba'
+    }
   ]
 })

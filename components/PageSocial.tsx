@@ -1,7 +1,7 @@
-import * as React from 'react'
+import type * as React from 'react'
 import cs from 'classnames'
 
-import * as config from 'lib/config'
+import * as config from '@/lib/config'
 
 import styles from './PageSocial.module.css'
 
@@ -69,7 +69,7 @@ const socialLinks: SocialLink[] = [
   }
 ].filter(Boolean)
 
-export const PageSocial: React.FC = () => {
+export function PageSocial() {
   return (
     <div className={styles.pageSocial}>
       {socialLinks.map((action) => (

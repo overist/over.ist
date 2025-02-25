@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'overist',
-  domain: 'https://career.over.ist/',
+  domain: 'career.over.ist',
   author: 'overist',
 
   // open graph metadata (optional)

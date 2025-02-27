@@ -4,7 +4,7 @@
 
 /* background set-up for notion page hero icon */
 div.notion-page-icon-hero.notion-page-icon-image {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 div.notion-page-icon-hero > span {
   width: 100% !important;

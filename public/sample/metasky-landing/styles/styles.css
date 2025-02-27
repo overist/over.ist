@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url(globals.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  line-height: 1.5;
+  font-style: normal;
+  font-family: "Pretendard Variable", "Pretendard", -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 1.7vh;
+  /* 세로 1080px 기준 툴바가림 제외 ((1080px - 툴바(150px)) / 100 * 1.7) = (약 16px), 1vh = 약 9.3px  */
+  color: #fff;
+  background-color: #000;
+  cursor: url("/sample/metasky-landing/images/cursor-black.png") 8 8,
+    url("/sample/metasky-landing/images/cursor-black.svg") 8 8,
+    url("/sample/metasky-landing/images/cursor-black.jpg") 8 8, pointer;
+}
+
+a,
+button {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: all 0.215s;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover,
+button:hover {
+  color: #ff0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

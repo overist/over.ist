@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("/sample/metasky-landing/fonts/Montserrat-VF.woff2")
+    format("woff2-variations");
+}
+
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("/sample/metasky-landing/fonts/PretendardVariable.woff2")
+    format("woff2-variations");
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+}
